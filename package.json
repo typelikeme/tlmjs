@@ -1,0 +1,39 @@
+{
+  "name": "tlmjs",
+  "version": "1.0.0",
+  "description": "Library for generating text predictions based on machine learning models trained via typelike.me",
+  "main": "dist/js/tlm.min.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typelikeme/tlmjs.git"
+  },
+  "keywords": [
+    "text",
+    "prediction",
+    "machine",
+    "learning",
+    "tensorflow"
+  ],
+  "author": "Sergiu Ionescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typelikeme/tlmjs/issues"
+  },
+  "homepage": "https://github.com/typelikeme/tlmjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel-minify": "^9.0.0",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "@avcs/autosuggest": "^1.5.0-beta",
+    "@tensorflow/tfjs": "^1.2.6",
+    "http-server": "^0.11.1"
+  }
+}
