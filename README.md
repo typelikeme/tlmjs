@@ -1,7 +1,7 @@
 # tlmjs
 Tensorflow based text prediction component, used to deploy ML models in the browser.
 
-# Exammples
+# Examples
 
 ## Obtaining prediction list
 
