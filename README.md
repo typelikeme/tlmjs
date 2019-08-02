@@ -15,4 +15,4 @@ var predictions = predictor.predict("the quick");
 
 ## Attaching the predictor to a html input
 
-See an example [here](typelikeme/tlmjs/blob/master/tests/index.html)
+See an example [here](/typelikeme/tlmjs/blob/master/tests/index.html)
