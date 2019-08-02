@@ -3,7 +3,7 @@ Tensorflow based text prediction component, used to deploy ML models in the brow
 
 # Exammples
 
-## Obtaining a prediction string
+## Obtaining prediction list
 
 ```javascript
 var predictor = tlm.predictor(
@@ -12,3 +12,7 @@ var predictor = tlm.predictor(
 var predictions = predictor.predict("the quick");
 //["brown", "is", "end", "dog", "the", "coherence", "and", "used", "in", "of", "owing", "all", "it", "alphabet", "lazy", "touch", "fonts", "letters"]
 ```
+
+## Attaching the predictor to a html input
+
+See an example [here](typelikeme/tlmjs/blob/master/tests/index.html)
