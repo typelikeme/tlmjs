@@ -1,5 +1,5 @@
 {
-  "name": "tlmjs",
+  "name": "@typelikeme/tlmjs",
   "version": "1.0.0",
   "description": "Library for generating text predictions based on machine learning models trained via typelike.me",
   "main": "dist/js/tlm.min.js",
