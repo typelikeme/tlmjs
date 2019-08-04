@@ -26,7 +26,7 @@ export class Tlm {
 
     attach(input) {
         let tlm = this;
-        var element = document.getElementById(input);
+        var element = typeof input == 'string' ? document.getElementById(input) : input;
         new AutoSuggest({
             caseSensitive: false,
             suggestions: [

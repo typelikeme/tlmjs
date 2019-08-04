@@ -1,11 +1,8 @@
 {
   "name": "@typelikeme/tlmjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for generating text predictions based on machine learning models trained via typelike.me",
   "main": "dist/js/tlm.min.js",
-  "scripts": {
-    "test": "gulp test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/typelikeme/tlmjs.git"
