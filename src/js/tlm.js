@@ -26,7 +26,7 @@ export class Tlm {
 
     attach(input) {
         let tlm = this;
-        var element = typeof input == 'string' ? document.getElementById(input) : input;
+        let element = typeof input == 'string' ? document.getElementById(input) : input;
         new AutoSuggest({
             caseSensitive: false,
             suggestions: [
@@ -39,7 +39,7 @@ export class Tlm {
                         var results = [];
 
                         if (!keyword) {
-                            var inputElement = document.getElementById(input);
+                            var inputElement = element;
                             var text = inputElement.value;
                             var predictEnd = inputElement.selectionStart;
                             text = text.slice(0, predictEnd);
