@@ -5,7 +5,7 @@ import AutoSuggest from '@avcs/autosuggest/es/AutoSuggest';
 export class Tlm {
     constructor(key) {
         this.maxSuggestions = 10;
-        this.minProbability = 0.0001;
+        this.minProbability = 0.00001;
         var path = 'https://cdn.typelike.me/models/word-predict/' + key + '/';
         var tokenizer = '';
         let tlm = this;
@@ -40,7 +40,7 @@ export class Tlm {
 
                         if (!keyword) {
                             var inputElement = element;
-                            var text = inputElement.value;
+                            var text = inputElement.tagName =='DIV' ? inputElement.textContent : inputElement.value;
                             var predictEnd = inputElement.selectionStart;
                             text = text.slice(0, predictEnd);
                             var predictStart = text.lastIndexOf('.') + 1;
