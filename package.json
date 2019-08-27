@@ -22,7 +22,7 @@
   "homepage": "https://github.com/typelikeme/tlmjs#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
-    "rollup": "^1.18.0",
+    "rollup": "^1.20.2",
     "rollup-plugin-babel-minify": "^9.0.0",
     "rollup-plugin-copy": "^3.1.0",
     "rollup-plugin-eslint": "^7.0.0",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@avcs/autosuggest": "1.5.0-beta",
-    "@tensorflow/tfjs": "^1.2.7",
+    "@tensorflow/tfjs": "^1.2.8",
     "http-server": "^0.11.1"
   }
 }
